@@ -16,6 +16,7 @@
 - **Workflow**: si hay trigger real → fix → `pytest` + `node --test` en verde
   → actualizar este bloque con el nuevo contador → commit.
 - **Checkpoint**: auditado 2026-09-02 + reactivo.
+- **Verify (2026-09-03)**: 85/85 pytest + 17/17 node = 102/102 PASS. Cero cambios código. Freeze intacto.
   DB real: `data/top_repos.db` — **21,522 repos** FTS5.
 - **Nota**: `node_modules/` NO está trackeado. Requiere `npm install` una vez
   para el MCP (`better-sqlite3` + `@modelcontextprotocol/sdk`).
