@@ -5,7 +5,9 @@
   "private": true,
   "main": "mcp_server.js",
   "scripts": {
-    "test": "node --test tests/mcp_helpers.test.js"
+    "test": "node --test tests/mcp_helpers.test.js",
+    "test:python": "python -m pytest",
+    "test:all": "npm test && npm run test:python"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
