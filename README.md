@@ -22,7 +22,7 @@ librerias existentes, evitando que codees desde cero lo que ya esta resuelto.
 | **Seguridad** | Sanitización anti-SQL/FTS injection, Rate Limiting (20 req/min search, 5 req/min ask), protección `/scrape` vía `SCRAPE_ENABLED`/`X-API-Key` |
 | **3 Skills IA** | `wheel_saver` `wheel-ready` `wheel-swap` para Claude Code / Gemini / Antigravity |
 | **Análisis estático** | `wheelsaver audit-code` ejecuta bandit + vulture + radon |
-| **CI & Tests** | GitHub Actions CI + 80+ tests automatizados con `pytest` y Playwright E2E |
+| **Tests** | 80+ tests automatizados con `pytest` y Playwright E2E (se ejecutan en local con `npm run test:all`) |
 | **Docker** | Dockerfile con extras `.[audit]` para despliegue en contenedor |
 
 
@@ -94,7 +94,7 @@ WheelSaver/
 │   ├── wheel-ready/          # Skill: checklist de proyecto
 │   └── wheel-swap/           # Skill: busca alternativas
 ├── frontend/                 # UI web (HTML + CSS + JS dinámico, responsive mobile)
-├── tests/                    # 80+ tests con pytest + Playwright E2E + CI GitHub Actions
+├── tests/                    # 80+ tests con pytest + Playwright E2E
 ├── Dockerfile                # Contenedor Python slim con extras de auditoría
 └── pyproject.toml            # Config del proyecto v3.3.2
 ```
