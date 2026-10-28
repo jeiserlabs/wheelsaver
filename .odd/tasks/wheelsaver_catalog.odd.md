@@ -55,3 +55,4 @@
 
 ## 7. Progreso y Evidencia In-Place
 - **2026-10-25:** Metodología ODD adoptada formalmente en WHEELSAVER.
+- **2026-10-28:** Evidencia medida: `npm run wheel:health` OK (instalación completa, API detenida on-demand) y catálogo/stats responden.
