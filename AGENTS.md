@@ -29,7 +29,7 @@
   - Faceless: `services/wheel_*.js` leen la DB real vía better-sqlite3.
   - Asistente: MCP `wheelsaver` → repo real (duplicado interno eliminado).
   - Scrapper: búsqueda de librerías para el harvester.
-- Mapa completo: `E:\PROYECTOS\Mis_Proyectos\faceless-bot TERMINADO\docs\ECOSYSTEM.md`
+- Mapa completo: `C:\PROYECTOS\Mis_Proyectos\faceless-bot\docs\ECOSYSTEM.md`
 
 ## MCP (6 herramientas)
 

@@ -22,3 +22,6 @@ repomix_last_run.log
 # Node (MCP)
 node_modules/
 .freebuff/
+
+# Corpus local de referencia (154MB, no va a Git)
+referencias/

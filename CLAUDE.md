@@ -45,7 +45,7 @@ para busquedas ultrarrápidas y offline.
 ## ECOSYSTEM (2026-08-15)
 - WHEELSAVER = **biblioteca GitHub del ecosistema** (25k repos, FTS5, API REST, skills `wheel_saver`/`wheel-ready`/`wheel-swap`).
 - Consumido por: Faceless (`services/wheel_*`, `cli wheel`) y Asistente_Personal (subproyecto).
-- Mapa completo: `E:\PROYECTOS\Mis_Proyectos\faceless-bot TERMINADO\docs\ECOSYSTEM.md`
+- Mapa completo: `C:\PROYECTOS\Mis_Proyectos\faceless-bot\docs\ECOSYSTEM.md`
 
 ## Modelo Reactivo (2026-08-15)
 - **SIN GitHub Actions / CI**: workflow "Run Tests" eliminado (generaba correos de fallo).
